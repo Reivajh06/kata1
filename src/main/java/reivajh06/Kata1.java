@@ -3,9 +3,9 @@ package reivajh06;
 public class Kata1 {
 
 	static void main() {
-		Rectangle rectangle = new Rectangle(10, 20);
-		System.out.println(rectangle);
-		System.out.println("Area: %s".formatted(rectangle.area()));
-		System.out.println("Perimeter: %s".formatted(rectangle.perimeter()));
+		Triangle equilateral = Triangle.equilateral(2);
+		System.out.println(equilateral);
+		System.out.println("Area: %s".formatted(equilateral.area()));
+		System.out.println("Perimeter: %s".formatted(equilateral.perimeter()));
 	}
 }
